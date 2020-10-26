@@ -1,0 +1,521 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 OCT 2020 20:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Tarea1.tex
+(./Tarea1.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/03/22 3.42 The Babel package
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen135
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count176
+)
+\es@quottoks=\toks15
+\es@quotdepth=\count177
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(./simbolos.sty
+Package: simbolos 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen138
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count178
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count179
+\leftroot@=\count180
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count181
+\DOTSCASE@=\count182
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count183
+\c@MaxMatrixCols=\count184
+\dotsspace@=\muskip16
+\c@parentequation=\count185
+\dspbrk@lvl=\count186
+\tag@help=\toks19
+\row@=\count187
+\column@=\count188
+\maxfields@=\count189
+\andhelp@=\toks20
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks28
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count190
+\calc@Bcount=\count191
+\calc@Adimen=\dimen147
+\calc@Bdimen=\dimen148
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count192
+\calc@Cskip=\skip57
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count193
+\l_MT_multwidth_dim=\dimen149
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen150
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen151
+\l_MT_above_intertext_sep=\dimen152
+\l_MT_below_intertext_sep=\dimen153
+\l_MT_above_shortintertext_sep=\dimen154
+\l_MT_below_shortintertext_sep=\dimen155
+\xmathstrut@box=\box47
+\xmathstrut@dim=\dimen156
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count194
+\l__pdf_internal_box=\box48
+)
+(./Tarea1.aux (./portada.aux)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ (./sections/problema1.aux)
+(./sections/problema2.aux) (./sections/problema7.aux)
+(./sections/problema12.aux) (./sections/problema22.aux))
+\openout1 = `Tarea1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count195
+\scratchdimen=\dimen157
+\scratchbox=\box49
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen158
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\openout2 = `portada.aux'.
+
+
+(./portada.tex
+<img/fciencias.png, id=1, 449.68pt x 513.92pt>
+File: img/fciencias.png Graphic file (type png)
+<use img/fciencias.png>
+Package pdftex.def Info: img/fciencias.png  used on input line 10.
+(pdftex.def)             Requested size: 224.83945pt x 256.95937pt.
+ [1
+
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/f
+ciencias.png>])
+\openout2 = `./sections/problema1.aux'.
+
+
+No file ./sections/problema1.tex.
+\openout2 = `./sections/problema2.aux'.
+
+(./sections/problema2.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)) [1
+
+
+
+
+]
+\openout2 = `./sections/problema3.aux'.
+
+
+No file ./sections/problema3.tex.
+\openout2 = `./sections/problema4.aux'.
+
+No file ./sections/problema4.tex.
+\openout2 = `./sections/problema5.aux'.
+
+No file ./sections/problema5.tex.
+\openout2 = `./sections/problema6.aux'.
+
+No file ./sections/problema6.tex.
+\openout2 = `./sections/problema7.aux'.
+
+(./sections/problema7.tex) [2
+
+
+
+
+
+
+
+
+
+
+]
+\openout2 = `./sections/problema8.aux'.
+
+
+No file ./sections/problema8.tex.
+\openout2 = `./sections/problema9.aux'.
+
+No file ./sections/problema9.tex.
+\openout2 = `./sections/problema10.aux'.
+
+No file ./sections/problema10.tex.
+\openout2 = `./sections/problema11.aux'.
+
+No file ./sections/problema11.tex.
+\openout2 = `./sections/problema12.aux'.
+
+(./sections/problema12.tex) [3
+
+
+
+
+
+
+
+
+
+
+]
+\openout2 = `./sections/problema13.aux'.
+
+
+No file ./sections/problema13.tex.
+\openout2 = `./sections/problema14.aux'.
+
+No file ./sections/problema14.tex.
+\openout2 = `./sections/problema15.aux'.
+
+No file ./sections/problema15.tex.
+\openout2 = `./sections/problema16.aux'.
+
+No file ./sections/problema16.tex.
+\openout2 = `./sections/problema17.aux'.
+
+No file ./sections/problema17.tex.
+\openout2 = `./sections/problema18.aux'.
+
+No file ./sections/problema18.tex.
+\openout2 = `./sections/problema19.aux'.
+
+No file ./sections/problema19.tex.
+\openout2 = `./sections/problema20.aux'.
+
+No file ./sections/problema20.tex.
+\openout2 = `./sections/problema21.aux'.
+
+No file ./sections/problema21.tex.
+\openout2 = `./sections/problema22.aux'.
+
+(./sections/problema22.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--32
+
+ []
+
+[4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]) [5]
+\openout2 = `./sections/problema23.aux'.
+
+
+No file ./sections/problema23.tex.
+\openout2 = `./sections/problema24.aux'.
+
+No file ./sections/problema24.tex.
+\openout2 = `./sections/problema25.aux'.
+
+No file ./sections/problema25.tex.
+\openout2 = `./sections/problema26.aux'.
+
+No file ./sections/problema26.tex.
+\openout2 = `./sections/problema27.aux'.
+
+No file ./sections/problema27.tex.
+\openout2 = `./sections/problema28.aux'.
+
+No file ./sections/problema28.tex.
+\openout2 = `./sections/problema29.aux'.
+
+No file ./sections/problema29.tex.
+\openout2 = `./sections/problema30.aux'.
+
+No file ./sections/problema30.tex.
+\openout2 = `./sections/problema31.aux'.
+
+No file ./sections/problema31.tex.
+\openout2 = `./sections/problema32.aux'.
+
+No file ./sections/problema32.tex.
+\openout2 = `./sections/problema33.aux'.
+
+No file ./sections/problema33.tex.
+\openout2 = `./sections/problema34.aux'.
+
+No file ./sections/problema34.tex.
+\openout2 = `./sections/problema35.aux'.
+
+No file ./sections/problema35.tex.
+\openout2 = `./sections/problema36.aux'.
+
+No file ./sections/problema36.tex.
+\openout2 = `./sections/problema37.aux'.
+
+No file ./sections/problema37.tex.
+\openout2 = `./sections/problema38.aux'.
+
+No file ./sections/problema38.tex.
+\openout2 = `./sections/problema39.aux'.
+
+No file ./sections/problema39.tex.
+\openout2 = `./sections/problema40.aux'.
+
+No file ./sections/problema40.tex.
+\openout2 = `./sections/problema41.aux'.
+
+No file ./sections/problema41.tex.
+\openout2 = `./sections/problema42.aux'.
+
+No file ./sections/problema42.tex.
+(./Tarea1.aux (./portada.aux)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ (./sections/problema1.aux)
+(./sections/problema2.aux) (./sections/problema3.aux) (./sections/problema4.aux
+) (./sections/problema5.aux) (./sections/problema6.aux)
+(./sections/problema7.aux) (./sections/problema8.aux) (./sections/problema9.aux
+) (./sections/problema10.aux) (./sections/problema11.aux)
+(./sections/problema12.aux) (./sections/problema13.aux)
+(./sections/problema14.aux) (./sections/problema15.aux)
+(./sections/problema16.aux) (./sections/problema17.aux)
+(./sections/problema18.aux) (./sections/problema19.aux)
+(./sections/problema20.aux) (./sections/problema21.aux)
+(./sections/problema22.aux) (./sections/problema23.aux)
+(./sections/problema24.aux) (./sections/problema25.aux)
+(./sections/problema26.aux) (./sections/problema27.aux)
+(./sections/problema28.aux) (./sections/problema29.aux)
+(./sections/problema30.aux) (./sections/problema31.aux)
+(./sections/problema32.aux) (./sections/problema33.aux)
+(./sections/problema34.aux) (./sections/problema35.aux)
+(./sections/problema36.aux) (./sections/problema37.aux)
+(./sections/problema38.aux) (./sections/problema39.aux)
+(./sections/problema40.aux) (./sections/problema41.aux)
+(./sections/problema42.aux)) ) 
+Here is how much of TeX's memory you used:
+ 4238 strings out of 480608
+ 60749 string characters out of 5903631
+ 313810 words of memory out of 5000000
+ 19940 multiletter control sequences out of 15000+600000
+ 538495 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,8n,35p,301b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb>
+Output written on Tarea1.pdf (6 pages, 130618 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

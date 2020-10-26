@@ -1,0 +1,32 @@
+\section{}
+Sea $\bU$ un conjunto universal. Demuestre que para cualquier subconjunto $A$ de $\bU$ se tiene que:
+\begin{itemize}
+	\item $A \cap \varnothing = \varnothing$\newline
+	Demostración por reducción a lo absurdo.\newline
+	Supongamos que $A \cap \varnothing \neq \varnothing$, por definición tenemos:\newline
+ 	$A \cap \varnothing = \{ x \in A \wedge x \in \varnothing \}$, entonces de nuestra suposición estaríamos diciendo que $x \in \varnothing$, lo que es absurdo $!$ ya 		que $\varnothing$ no tiene elementos.\newline
+	$\therefore A \cap \varnothing = \varnothing$
+	
+	\item $A \cup \bU = \bU$\newline
+	Demostración por reducción al absurdo.\newline
+	Supongamos que $A \cup \bU \neq \bU$, por definición de unión tenemos que $A \cup \bU = \{ x \in A \lor x \in \bU\}$\newline
+	Entonces de nuestra suposición estaríamos diciendo que $x \notin \bU$, lo que es absurdo $!$ ya que por hipótesis $x \in \bU$\newline
+	$\therefore A \cup \bU \neq \bU$
+
+	\item $A \cap A^c \neq \varnothing$\newline
+	Demostración por reducción al absurdo. \newline
+	Supongamos que $A \cap A^c \neq \varnothing$, lo que significaría que $\exists x | x \in A \cap A^c$\newline
+	Pero por definición tenemos que:\newline
+	$A \cap A^c = \{ x \in A \wedge x \notin A \wedge x \in \bU \}$\newline
+	 lo que nos lleva a una contradicción $!$ por que no puede ser que:\newline
+	 $x \in A \wedge x \notin A$\newline
+	$\therefore A \cap A^c = \varnothing$
+	
+	\item $A \cup A^c = \bU$\newline
+	Demostración por reducción al absurdo.\newline
+	Supongamos que $A \cup A^c \neq \bU$, por definición de complemento sabemos que:\newline
+	$A^c = \{ x \in \bU \wedge x \notin A \}$, pero por hipotesis sabemos que $x \in A$\newline
+	Por lo que $\{( x \in \bU \wedge x \notin A) \cup x \in A \}!$ Por lo que es absurdo que $x \notin A$ y que $x \in \bU$.
+	
+\end{itemize}
+ 

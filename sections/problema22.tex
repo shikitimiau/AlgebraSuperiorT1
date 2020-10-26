@@ -1,0 +1,43 @@
+\section{}
+Demuestra que para cualquiera conjunto $A$ y $B$, se tiene que:
+\begin{enumerate}[(a)]
+    \item $A \subseteq B$ si y solo si $ A \setminus B = \varnothing$; \newline
+    $(\implies) A \subseteq B \implies A \setminus B = \varnothing$\newline
+    Demostración por contradicción:\newline
+    $A \subseteq B(1) \wedge A \setminus B \neq \varnothing(2)$\newline
+	Por definición podemos expresar a  $(1)$ y $(2)$ como: \newline
+	$A \subseteq B \coloneqq \forall x (x \in A \implies x \in B)$  y $x \in A \setminus B \coloneqq (x \in A \wedge x \notin B) !$\newline
+	Esto nos lleva a una contradicción ya que la diferencia de $A$ y $B$, $x \in A$ y $x \notin B$, pero se dijo que  $\forall x(x \in A \implies x \in B)$ por lo que no puede ser que $x \in A$ y $x \notin B$.\\\\
+    
+    $(\Longleftarrow) A \setminus B = \varnothing \implies A \subseteq B$\newline
+    Demostración por contrapositiva:\newline
+	Si $A \subsetneqq B \implies A \setminus B \neq \varnothing$, por definición de diferencia tenemos que: \newline
+	$x \in A - B \coloneqq (x \in A \wedge x \notin B)$ , por hipótesis tenemos que: \newline
+	$A \subsetneqq B \coloneqq \exists x (x \in A \wedge x \notin B )$ por lo que si a esto le aplicamos una diferencia nos quedaría que: \newline
+	 $x \in A \wedge x \notin B$ (def) y  como $\exists x (x \in A \wedge x \notin B )$ entonces $A \setminus B \neq 0$ lo que demuestra que:\newline
+	 $A \setminus B = \varnothing \implies  A \subseteq B$    
+    
+    
+    
+     \item $B \subseteq A$ si y solo si $ (A \setminus B) \cup B = A$; \newline
+    $(\implies) B \subseteq A \implies (A \setminus B) \cup B = A$\newline
+    Demostración por contradicción:\newline
+    Si $B \subseteq A(1) \wedge (A \setminus B) \cup B \neq A(2)$, por definición, sabemos que:\newline
+    $B \subseteq A \coloneqq \forall x (x \in B \implies x \in A)$ \newline
+    y que $(A \setminus B) \cup B \neq A$ es $x \in (\{x \in A \wedge x \notin B \} \lor x \in B)$ pero $x \notin A !$.\newline
+    Esto es una contradicción ya que si $\forall x(x \in B \implies x \in A)$ \newline
+    y $(x \in A \wedge x \in B)$, \newline
+    no puede ser $x \notin A$ ya que en ambos casos $x \in A$. \newline
+   $\therefore  B \subseteq A \implies (A \setminus B) \cup B = A$.\\\\
+   
+   $(\Longleftarrow) (A \setminus B) \cup B = A \implies B \subseteq A$\newline
+   Por definición podemos expresar a  $(A \setminus B) \cup B = A$ como:\newline
+    $x \in ( \{ x \in A \wedge x \notin B\} \lor x \in B) = A$ \newline
+    por lo tanto $( \{x \in A \wedge x \notin B\} \lor x \in B) \subseteq A(1)$ \newline
+    y $A \subseteq( \{ x \in A \wedge x \notin B \} \lor x \in B)$,\newline
+     por $(1)$ tenemos dos casos $\{ x \in A \wedge x \notin B\} \subseteq A$ que es cierto ya que por teorema de reflexibilidad(visto en clase ) $A \subseteq A$ \newline
+     y tenemos el segundo caso $B \subseteq A$, lo que completa la demostración.
+
+
+  
+  \end{enumerate}
