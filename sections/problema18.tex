@@ -1,0 +1,39 @@
+\section{}
+Sean $I \subseteq \bN$, un conjunto y $\{A_i\}_{i \in I}$ una familia de subconjuntos de un conjunto universal $\bU$. Demuestre que:
+\begin{itemize}
+	\item (a) Existe $j \in I$ tal que $\bigcap_{i \in I} A_i = A_j$ si y solo si existe $j \in I$ tal que $A_j \subseteq A_i$ para todo  $i \in I$\newline//
+	$(\rightarrow)$ Suponemos que $\exists j \in I$ tal que $\bigcap_{i \in I}A_i = A_j$\newline
+	Pd: $\exists j \in I$ tal que $A_j \subseteq A_i$ para todo $i \in I$\newline\\
+	Tomamos $A_j$ como en la hipótesis.\newline
+	Afirmamos: $A_j \subseteq A_i \forall i \in I$\newline
+	Sea $i \in I$ Pd. $A_j \subseteq A_i$\newline
+	Sea $x \in A_j$. Por hipótesis $Aj = \bigcap_{i \in I}A_i$, así,\newline
+	$x \in \bigcap_{i \in I}A_i$, por lo que $\forall i \in I x \in A_i$\newline
+	$\therefore A_j \subseteq A_i \forall i \in I$
+	
+	$(\leftarrow)$ Suponemos que $\exists j \in I$ tal que $A_j \subseteq A_i \forall i \in I$\newline
+	Pd. $\exists j \in I$ tal que $\bigcap{i \in I}A_i = A_j$\newline
+	Tomamos $j \in I$ como en la hipótesis. \newline
+	$(\supseteq)$ Pd. $\bigcap_{i \in I} A_i \supseteq A_j$. Sea $x \in A_j$ Como $A_j \subseteq A_i \forall i \in I$\newline
+	entonces $x \in A_i \forall i \in I$, asi $x \in \bigcap_{i \in I}A_i$\newline
+	$(\subseteq)$ Pd. $\bigcap_{i \in I}A_i \subseteq A_j$. Sea $x \in \bigcap_{i \in I}A_i$, entonces $x \in A_i \forall i \in I$,\newline
+	en particular, para $j \in I$  $x \in A_j$\newline
+	$\therefore \bigcap_{i \in I}A_i = A_j (1)$
+	
+	\item $(\bigcap_{i \in I}A_i)^c = \bigcup_{i \in I}A^c_i$\newline\\
+	$(\subseteq)$ Sea $x \in (\bigcap_{i \in I}A_i)^c$, asi $x \notin \bigcap_{i \in I}A_i$, \newline
+	de manera que, existe algún $j \in I$ tal que $x \notin A_j$, \newline
+	es decir, $x \in A_j^c$, por lo tanto, $x \in \bigcup_{i \in I}A_i^c$\newline
+	$\therefore (\bigcap_{i \in I}A_i)^c \subseteq \bigcup_{i \in I}A_i^c$\newline
+	$x \in \bigcap_{i \ \in I}A_i \iff \forall i \in I x \in A_i$\newline
+	$x \notin \bigcap_{i \in I}A_i \iff \urcorner(\forall i \in I x \in A_i)$\newline
+	$\iff \exists j \in I$ tal que $x \notin A_j$\newline
+	$(\supseteq)$ Sea $x \in \bigcup_{i \in I}A_i^c$, esto quiere decir:\newline
+	$\exists j \in I$ tal que $x \in A_j^c$, así, $x \notin A_j$\newline
+	Así, como $\exists j \in I$ tal que $x \notin A_j$, por lo que\newline
+	$x \notin \bigcap_{i \in I}A_i$ (debido a la equivalencia de $(1)$)\newline
+	de manera que $x \in (\bigcap_{i \in I}A_i)^c$\newline
+	$\therefore (\bigcap_{i \in I}A_i)^c \subseteq \bigcup_{i \in I}A_i^c$
+	
+	
+\end{itemize}
