@@ -1,0 +1,25 @@
+\section{}
+Demuestre que para cualesquiera conjuntos A, B y C se tiene que \newline
+$((A \setminus B) \setminus C) \subseteq (A \setminus (B \setminus C))$.\newline
+Sea $((A \setminus B) \setminus C) \rightarrow x \in (A \setminus B) \wedge x \notin B$ \newline
+$ \rightarrow (x \in A \wedge x \notin B) \wedge x \notin C$ \newline
+-Observación-\newline
+Como queremos ver que $x \in (A \setminus (B \setminus C)) \rightarrow$ tendríamos que ver que x está en A y no en $B \setminus C$\newline 
+$\rightarrow x \in A \wedge x \notin (B \setminus C)$, usando leyes de lógica\newline
+$\rightarrow x \in A \wedge (x \notin B \lor x \in C)$, usando leyes distributivas\newline
+$\rightarrow (x \in A \wedge x \notin B) \lor (x \in A \wedge x \in C)$\newline
+-Continuando-\newline
+Cómo $x$ está en A y $x$ no está en B y $x$ no esta en C:\newline
+$(\rightarrow)$\newline
+[ $x$ está en A y $x$ no está en B] o [ $x$ esta en A y $x$ está en C] (ya que cumple el o) Por silogismo de adición y simplificación.\newline
+$x$ esta en A y ($x$ no extá en B o $x$ está en C) (Leyes distributivas)\newline
+$x$ pertenece a A y no es cierto que ($x$ no pertenece a B ó $x$ pertenezca a C)\newline
+$A \setminus (B \setminus C)$ por definición de resta\newline
+$\therefore ((A \setminus B)\setminus C) \subseteq (A \setminus (B \setminus C))$\newline
+
+Pruebe que la contención contraria no siempre se cumple dando un contraejemplo:\newline
+Pd: $(A \setminus (B \setminus C)) \subsetneqq ((A \setminus B) \setminus C)$\newline
+Sea $A = \{ 1, 2, 3\}$, $B = \{2,4\}$, $C = \{ 2,3\}$, $(B \setminus C) = \{ 4\} \rightarrow$\newline
+$(A \setminus (B \setminus C)) = \{1,2,3\}$. $(A \setminus B)= \{1,3\} \rightarrow ((A \setminus B) \setminus C) = \{1\}$
+entonces tenemos que $ \{1,2,3 \} \subsetneqq \{ 1\}$ lo que es falso.\newline
+$\therefore (A \setminus (B \setminus C)) \subsetneqq ((A \setminus B) \setminus C)$

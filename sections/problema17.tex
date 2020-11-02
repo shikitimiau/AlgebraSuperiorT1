@@ -1,0 +1,28 @@
+\section{}
+Sean $I \subseteq \bN$, $A$ un conjunto y $\{ A_i \}_{i \in I}$ una familia de conjuntos. Demuestre que:
+\begin{itemize}
+	\item (a) Si para alguna $j \in I$ se tiene que $A_j \subseteq A$, entonces $\bigcap_{i \in I} A_i \subseteq A$ \newline\\
+	
+	Si $A \subseteq A_i$ para algún $i \in I$, entonces $A \subseteq \bigcup_{i \in I} A_i$\newline
+	Demostración por contra positiva y reducción al absurdo:	\newline
+	Supongamos que $A \neq \varnothing$, entonces por contra positiva si  $A \subsetneqq  \bigcup_{i \in I} A_i \rightarrow \forall_{i \in I} (A \subsetneqq A_i)$, ahora podemos demostrar esta proposición por reducción al absurdo si tenemos $\urcorner(\backsim q \rightarrow \backsim p )$ es igual a $\backsim q \wedge p$, lo que nos quedaría:\newline
+	Supongamos que $A \subsetneqq \bigcup_{i \in I}A_i  (1)  \wedge A \subseteq A_i$ para algún  $i \in I (2)$, por definición a  $(1)$ la podemos expresar como: \newline
+	$\exists x (x \in A \wedge x \notin A_i \forall_{i \in I})$ y a $(2)$ como: \newline
+	$\exists A_i$ tal que $\forall x (x \in A \rightarrow x \in A_i)!$ lo que nos lleva a una contradicción, ya que existirá un $x \in A$ tal que $x \in A_i \forall_{i \in I}$ y al mismo tiempo $x \in A_i$ para algún $i \in I$, por lo que nuestro enunciado contra positivo es verdad y por lo tanto nuestro enunciado original también.
+	
+	
+ 	\item (b) Si para cada $i \in I$ se tiene que $A_i = A$, entonces  $\bigcap_{i \in I} A_i = A$\newline
+ 	Corolario $(1) A \cap A = A$\newline
+ 	Supongamos que $A \cap A \neq A$, por definición de intersección podemos pasarlo a $A \cap A := \{  x \in A \wedge x \in A \}!$ con lo que llegamos a una contradicción, ya no puede ser el caso de que $x \in A$ y $x \notin A$, por lo que $A \cap A = A$.\newline
+ 	Por hipótesis tenemos que $A_i =A \forall_{i \in I}$, por lo tanto por corolario $(1)$ si toda $A_i = A$ su intersección será $A$\newline
+ 	$\therefore \bigcap_{i \in I}A:i = A$.
+ 	
+ 	
+	\item (c) Si $A \subseteq A_i$ para algún $i \in I$, entonces $A \subseteq \bigcup_{i \in I} A_i$\newline
+	Demostración por contra positiva y reducción al absurdo: \newline
+	Si $A \subsetneqq \bigcup_{i \in I}A_i \rightarrow A \subsetneqq A_i$ (por contra positiva) ahora podemos negar esta proposición si tenemos $\urcorner (\backsim q \rightarrow \backsim p)$ es igual a $(\backsim q \wedge p)$ lo que nos quedaría:\newline
+	Si $A \subsetneqq \bigcup_{i \in I}A_i (1) \wedge A \subseteq A_i (2) $, por definición podemos pasar a $(1)$ como:\newline
+	$\exists x (x \in A \wedge x \notin A_i \forall_{i \in I})$, pero tenemos que por $(2)$ que:\newline
+	$\forall x (x \in A \rightarrow x \in A_i)!$ lo que nos lleva a una contradicción ya que no podemos decir que $x \notin A_i \forall_{i \in I}$ y que al mismo tiempo $x \in A_i$  siendo $x \in A$. Lo que esta contradicción nos dice que el contra positivo es verdad y por lo tanto nuestro enunciado principal es verdad.\newline
+	$\therefore A \subseteq A_i$ para algún $i \in I \rightarrow A \subseteq  \bigcup_{i \in I} A_i$
+\end{itemize}

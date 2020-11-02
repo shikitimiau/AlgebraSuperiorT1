@@ -1,0 +1,11 @@
+\section{}
+Demuestre que para cualesquiera conjuntos A y B se tiene que: $A \triangle B = \varnothing$ si y solo si $A = B$\newline
+$(\rightarrow)$Demostración por contrapositiva\newline
+Por hipótesis tenemos que $A \neq B$, por lo tanto $A \subsetneqq B \lor B \subsetneqq A$, tenemos por definición que $A \triangle B = (A \setminus B) \cup (B \setminus A)$.\newline
+Caso I) Sea $A \subsetneqq B \rightarrow \exists x \{ x \in A \wedge x \notin B \}$ por lo que la diferencia de $A \setminus B$ no será vacía $\rightarrow A \triangle B$ no es vacía ya que $(A \setminus B)$ tiene algun elemento.\newline
+Caso II) Sea $B \subsetneqq A \rightarrow \exists x \{ x \in B \wedge x \notin A \}$ por lo que la diferencia $B \setminus A$ no será vacía, $\rightarrow A \triangle B$ no es vacía ya que $(B \setminus A)$ tiene algun elemento.\newline
+Si $A \neq B \rightarrow A \triangle B \neq \varnothing$, por lo tanto $A \triangle B = \varnothing \rightarrow A = B$ es verdadera.\newline
+
+$(\leftarrow)$\newline
+Siendo $A = B$ entonces $(A \setminus B)$ y $(B \setminus A)$ serán iguales a $\varnothing$, por propiedades de la diferencia de conjuntos $A \setminus A = \varnothing$ (propiedades vistas en clase) por teorema de Idempotencia $A \cup A = A$(visto en notas), siendo en este caso A el resultado de las operaciones $(A \setminus B)$ y $(B \setminus A)$ que es $\varnothing$\newline
+$\therefore$ Si $A = B \rightarrow A \triangle B = \varnothing$

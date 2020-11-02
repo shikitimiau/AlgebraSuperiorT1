@@ -1,0 +1,19 @@
+\section{}
+Demuestre que para cualesquiera conjuntos $A$ y $B$ se tiene lo siguiente:
+\begin{itemize}
+	\item (a) $A \subseteq B$ si y solo si $P(A) \subseteq P(B)$\newline
+	$(\rightarrow)$\newline
+	Sea x en $P(A)$. Entonces, x está contenido en A (por definición de potencia) luego como x está contenido en A y A contenido en B (hipótesis), por transitividad tenemos que x contenido en B. Por lo tanto x es elemento de $P(B)$ por definición de potencia.\newline
+	$(\leftarrow)$\newline
+	Sea x en $P(A) \rightarrow x$ está contenido en A (por definición de potencia), luego sea y en $P(B) \rightarrow y$ está contenido en B, por hipotesis tenemos que $P(A) \subseteq P(B) \rightarrow$por  propiedad de transitividad tenemos que x está contenida en B.\newline
+	$\therefore A \subseteq B$
+	
+	
+	\item (b) $P(A) \in  P(P(A \cup B))$\newline
+	Sabemos que  $A \subseteq A \cup B$ ya que:\newline
+	 $\forall x (x \in A \rightarrow x \in A \lor x \in B)$, tenemos que $x \in P(A) \iff x \subseteq A$ \newline
+	 y que $x \in P(A \cup B) \iff x \subseteq A \cup B$, \newline
+	 pero habíamos dicho que $A \subseteq A \cup B$, por lo tanto $P(A) \subseteq P(A \cup B)$, \newline
+	 de igual forma tenemos que $x \in P(P(A \cup B)) \iff x \subseteq P(A \cup B)$, pero habíamos encontrado que  $P(A) \subseteq P(A \cup B)$\newline
+	$\therefore P(A) \in P(P(A \cup B))$
+\end{itemize}
