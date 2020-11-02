@@ -1,0 +1,21 @@
+\section{}
+Para cualesquiera conjuntos $A, B, C$ y $D$ tales que $A \neq  \varnothing$ y $C \neq \varnothing$, demuestre que $A \subseteq C$ y $C \subseteq D$ si y solo si $A x C \subseteq B x D$ ¿Qué sucede si alguno A o C es vacío?\newline
+
+$(\rightarrow)$\newline
+Dem Pd: Si $A \subseteq B$ y $C \subseteq D \rightarrow AxC \subseteq BxD$\newline
+Sea $(a,c) \in AxC$, por hipótesis sabemos que $\forall x (x \in A \rightarrow x \in B) \wedge \forall x (x \in A \rightarrow x \in D) \rightarrow (a,c)$ también pertenece a $BxD$.\newline
+$\therefore AxC \subseteq BxD$ \newline
+
+$(\leftarrow)$\newline
+Pd: $AxC \subseteq BxD \rightarrow A \subseteq B \wedge C \subseteq D$\newline
+Caso I) Sean $A \neq \varnothing$ y $c \in C \rightarrow \exists$ la pareja $(a,c) \in AxC$, \newline
+como $\forall (x,y)((x,y) \in AxC \rightarrow (x,y) \in BxD) \rightarrow (a,c) \in BxD$,\newline
+luego $a \in B$ y $c \in D$\newline
+$\therefore A \subseteq B \wedge C \subseteq D$\newline
+Caso II) Este caso es análogo al caso I con la condición de que $a \in A$ y $c \neq \varnothing$\newline\\
+
+¿Qué sucede si alguno A o C es vacío?\newline
+En caso de que A o C sean igual al vacío, $AxD = \varnothing$, por lo que se cumpliría la condición de que $A \subseteq B$ y $C \subseteq D$ ($\forall A, \varnothing \subseteq A $ teorema visto en clase) pero no se cumplira $AxC \subseteq BxD$, ya que se define a  $BxD = \{ (b,d) | a \in A \wedge b \in B\}$ y si $AxC = \varnothing \rightarrow$ no existe una pareja $(b,d)$ que sea igual a  $\varnothing$ (solo su $B$ y $D \neq \varnothing$ ), y $\varnothing$ no puede ser una pareja $(b,d)$.\newline
+Contraejemplo:\newline
+Sea $A$ y $C = \varnothing$, $B = \{ 1\}$, $D = \{2\} \rightarrow AxC = \varnothing$ y $BD = \{\{1,2\} \}$, \newline
+por lo que $AxC \subsetneqq BD\{\{1,2\}\} $  ya que el vacío no puede ser una pareja. 

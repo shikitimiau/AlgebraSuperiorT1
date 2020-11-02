@@ -1,0 +1,36 @@
+\section{}
+Considere al conjunto universal $\bU = \bR$ y los conjuntos $A = (-7, 1]$, $B = [-2, 4]$ y $C = [-3, 9)$. Encuentre:
+
+Si consideramos: 
+	\[ A = \{  x : -7 < x \leqslant 1 \}\]
+	\[ B = \{  x : -2 \leqslant x  \leqslant 4\}\]
+	\[ C = \{  x : -3 \leqslant x  < 9\}\]
+	
+\begin{itemize}
+	\item $A \cap B \cap C$ \newline
+	En este caso podemos decir que:
+	\[  A \cap B \cap C = \{ x: -2 \leqslant x \leqslant 1\} \]
+	
+	
+	\item $A \cap B^c \cap C$ \newline
+		Si consideramos lo anterior y:
+		\[  B^c = (-\infty, -2)  \cup (4, \infty) \]
+		Podemos decir que:
+		\[ A \cap B^c \cap C = [-3, -2) \]
+		\[  A \cap B^c \cap C = \{ x : -3 \leqslant x < -2 \} \]
+		
+	\item $(A \cap B)^c \cap C$\newline
+	Si $A \cap B = [-2, 1]$ podemos decir que $(A \cap B)^c = (-\infty, -2) \cup (1, \infty)$. Lo cual nos lleva a concluir en este caso que:
+	\[  (A \cap B)^c \cap C = [-3, -2] \cup (1, 9)\]
+	\[ (A \cap B)^c \cap C = \{ x : -3 \leqslant x < -2 \wedge 1 < x < 9 \} \]
+	
+	\item $A^c \cap B^c \cap C^c$\newline
+	Teniendo en cuenta los complementos de A, B y C:
+	\[A^c = (-\infty, -7)\cup (1,\infty) \]
+	\[  B^c = (-\infty, -2)  \cup (4, \infty) \]
+	\[  C^c = (-\infty, -3)\cup [9,\infty) \]
+	
+	Podemos concluir:
+	\[ A^c \cap B^c \cap C^c = (-\infty,-2) \cup (4, \infty)\]
+	\[ A^c \cap B^c \cap C^c = \{x : -\infty < x < -3 \wedge 9 \leqslant x < \infty \}\]
+\end{itemize}
