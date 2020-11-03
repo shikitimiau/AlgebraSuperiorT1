@@ -1,0 +1,5 @@
+\section{}
+Sean $A = \{5, \varnothing, \{\varnothing\}, \{\varnothing,4\}, \{\pi\}\}$, $B_1 = \{ 2, \{5, \{\varnothing\}\}\}$, $B_2 = \{ \{\pi\}, \{5, \varnothing\} \}$ y $B_3 = \{5, \varnothing\}$. Encuentre el conjunto $P(A) \cap (B_1 \cup B_2 \cup B_3)$.\newline
+Tenemos $(B_1 \cup B_2 \cup B_3) = \{2, \{5, \varnothing\}, \{ \pi\} , \{5 , \varnothing\} , 5, \varnothing\}$\newline
+Sabemos por definición de $P(A) := \{ x | x \subseteq A\}$, por lo tanto en $B_1 \cup B_2 \cup B_3$ quedarían descartados todos los elementos que no son conjuntos y el elemento que es conjunto pero tiene otro conjunto, de la intersección también quedarían fuera los elemento de A tal que sean conjuntos pues en la potencia estarían dentro de un conjunto unitario, con elemento otro conjunto. \newline
+Con esto la unica intersección de $P(A)$ con $B_1 \cup B_2 \cup B_3$ es $\{5, \varnothing \}$
