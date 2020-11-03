@@ -1,0 +1,84 @@
+\section{}
+Sean A, B y C conjuntos cualesquiera. Demuestra las siguientes igualdades:
+\begin{itemize}
+	\item (a) $A \setminus B = A \setminus (A \cap B)$\newline
+	Por definición sabemos que: $A \setminus B = \{ x \in \bU : x \in A \wedge x \notin B \}$\newline
+	En el lado derecho de la igualdad sabemos que \newline
+	$A \cup B = \{ x \in \bU : x \in A \wedge x \in B \} $\newline
+	Por lo que podemos verlo como: $A \setminus (A  \cap B) = \{ x \in A \wedge x \in B \}$\newline
+	Por lo que se cumple la igualdad.
+	
+	
+	\item (b) $A \setminus B = (A \cup B) \setminus B$\newline
+	Por definición sabemos que:\newline
+	$A \cup B = \{x \in \bU : x\in A \lor x\in B \}$\newline
+	Si $(A \cup B ) \setminus B$ se expresa como:\newline
+	$(A \cup B ) \setminus B = \{x \in \bU : (x \in A \lor x \in B) \wedge x \notin B \}$\newline
+	Podemos expresarlo también como:\newline
+	$(A \cup B) \setminus B = \{ x \in \bU : x\in A \wedge x \notin B \}$\newline
+	Que es lo mismo que $A\setminus B$, por lo tanto esta igualdad se cumple.
+	
+	\item (c) $(A \setminus B) \cup B = A \cup B$\newline
+	Sabiendo que $A \setminus B$ son $x \in A$ y $x \notin B$\newline
+	Nos quedaríamos solamente con las $x \in A$, pero si unimos A con B (por la unión que esta dada), estaríamos obteniendo lo mismo que en la igualdad derecha. Por lo que esta igualdad se cumple.
+		
+	\item (d) $A \setminus (A \setminus B) = A \cap B$\newline
+La primer parte de la igualdad la podemos ver como: \newline
+$x \in \bU : x \in A \wedge (x \notin A \wedge x\in B)$, pues estaríamos negando a $(A\setminus B)$ por la diferencia. Y esto lo podemos expresar como: \newline
+	$x \in \bU : x\in A \wedge x \in B$ que es lo mismo que $A \cap B$, por lo que esta igualdad se cumple.
+	
+	\item (e) $A \cup (B \setminus A) = A \cup B$\newline
+	Si consideramos que en $B \setminus A $ solo nos quedará el conjunto B, puesto que $x \in B \wedge x \notin A$, tendremos $A \cup B$, que es $x \in A \lor x \in B$, que es lo mismo del otro lado de la igualdad, por lo tanto se cumple. 
+	
+	\item (f) $(A \cup B )\setminus C = (A \setminus C ) \cup (B \setminus C)$\newline
+	La primer parte se puede expresar como $(x \in A \lor x \in B) \wedge x \notin C$, si aplicamos una distribución de términos con $x \notin C$ obtendríamos:\newline
+	$(x \in A \wedge x \notin C) \lor (x \in B \wedge x \notin C)$ que es lo mismo que si dijéramos: \newline
+	$(A \setminus C ) \cup (B \setminus C)$, por lo tanto se cumple la igualdad.
+	
+	\item (g) $(A \cup B )\setminus C = (A \setminus C) \cap (B \setminus C) $\newline
+	Al igual que en el inciso (f), podemos representar la primer parte de la igualdad como:\newline
+	$(x \in A \wedge x \in B) \wedge x \notin C$, si aplicamos nuevamente una distribución, obtenemos:\newline
+	$(x \in A \wedge x\notin C) \wedge (x \in B \wedge x\notin C)$\newline
+	Que es lo mismo que $(A \setminus C) \cap (B \setminus C) $, por lo tanto se cumple la igualdad.
+	
+	\item (h) $(A \setminus B) \setminus C = A \setminus (B \cup C)$\newline
+	La primer parte la podemos expresar como:\newline
+	$x \in A \wedge x\notin B \wedge x \notin C $, al no estar $x$ tanto en B como en C, podemos hacer la unión de ambos, por lo que quedaría como:\newline
+	$x \in A \wedge (x \notin B \lor x  \notin C)$, y esto nos lleva a probar la igualdad pues es lo mismo que $A \setminus (B \cup C)$
+	
+	\item (i) $ A \setminus (B \setminus C) = (A \setminus B) \cup (A \cap C)$\newline
+	$(\rightarrow)$\newline
+	$ A \setminus (B \setminus C) \subseteq (A \setminus B) \cup (A \cap C)$\newline
+	$ A \cap (B \setminus C)^c \subseteq (A \setminus B) \cup (A \cap C)$\newline
+	$ A \cap (B \setminus C^c)^c \subseteq (A \setminus B) \cup (A \cap C)$\newline
+	$ A \cap (B^c \setminus C) \subseteq (A \setminus B) \cup (A \cap C)$\newline
+	$ A \cap B^c \cup A \cup C \subseteq (A \setminus B) \cup (A \cap C)$\newline
+	$(A\setminus B) \cup A \cup C \subseteq ( A \setminus B) \cup (A \cup C)$\newline\\
+	
+	$(\leftarrow)$\newline
+	$(A \setminus B) \cup (A \cap C) \subseteq A \setminus (B \setminus C)$\newline
+	$(A \cap B ^c) \cup (A \cap C)$\newline
+	$A \cap (B^c \cup C)$\newline
+	$A \setminus (B^c \cup C)^c$\newline
+	$A \setminus (B \cap C^c)$\newline
+	$A \setminus (B \setminus C)$\newline
+	$\therefore A \setminus (B \setminus C) = (A \setminus B) \cup (A \cap C)$
+	
+	
+	\item (j) $A \cup (B \setminus C) = (A \cup B) \setminus (C \setminus A)$\newline
+	$(\rightarrow)$\newline
+	$A \cup (B \cap C^c) \subseteq (A \cup B )\setminus (C\setminus A)$\newline
+	$A \cup B \cap A \cup C^c$\newline
+	$(A \cup B) \setminus (A \cup C^c)^c$\newline
+	$(A \cup B ) \setminus (A^u \cap C)$\newline
+	$(A \cup B ) \setminus (C \setminus A)$\newline\\
+	
+	$(\leftarrow)$\newline
+	$(A \cup B ) \setminus (C \setminus A) \subseteq A \cup (B \setminus C)$\newline
+	$(A \cup B )\cap (C \setminus A)^c$\newline
+	$(A \cup B )\cap (C \cap A^c)^c$\newline
+	$(A \cup B )\cap (C ^c \cup A)$\newline
+	$A \cup (B \cap C^c)$\newline
+	$A \cup (B \setminus C)$
+	
+\end{itemize}
