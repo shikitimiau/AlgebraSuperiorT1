@@ -1,0 +1,37 @@
+\section{}
+\noindent 31. Sean $A = \{x \in \mathbb{R} : x^2 - 1 = 0 \}$ y $B = \{x \in \mathbb{R} : |x| \leq 1\}$. Determine los siguientes conjuntos: $A \cap B$, $A \cup B$, $(A \cup B)^c$, $A^c \cap B^c$, $A \setminus B$ y $A \bigtriangleup B$.\\
+ \begin{center}
+  \begin{tabular}{r l}
+$A:$ & $= \{x \in \mathbb{R} : x^2 - 1 = 0\}$\\
+ & $= \{x \in \mathbb{R} :x^2 = 1\}$\\
+  & $=\{x \in \mathbb{R} : x=-1 \;\vee\; x=1\}$\\
+   & \\
+$B:$ & $= \{x \in \mathbb{R} : |x| \leq 1\}$\\
+ & $= \{x \in \mathbb{R} : -1 \leq x \leq1 \}$\\
+  \end{tabular}
+ \end{center}
+
+\paragraph{$A \cap A$}
+	\subparagraph{$ = \{x \in \mathbb{R} : x \in A \; \wedge \; x \in B\}$}
+	\subparagraph{$ = \{x \in \mathbb{R} : x^2 = 1\}$}
+\paragraph{$A \cup B$}
+	\subparagraph{$= \{x \in \mathbb{R} : x\in A \;\vee\; x\in B\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : -1 \leq x \leq 1\}$}
+\paragraph{$(A \cup B)^c$}
+	\subparagraph{$= \{x \in \mathbb{R} : x \notin (A \cup B)\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : x<-1 \; \vee \; x>1\}$}
+\paragraph{$A^c \cap B^c$}
+	\subparagraph{$= \{x \in \mathbb{R} : x \notin A \; \wedge \; x \notin B\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : -1 \nleq x \nleq 1\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : x<-1 \; \wedge \; x>1\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : |x|>1\}$}
+\paragraph{$A \setminus B$}
+	\subparagraph{$= \{x \in \mathbb{R} : x \in A \; \wedge \; x \notin B\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : x^2 = 1 \; \wedge \; |1|>1\}$}
+	\subparagraph{$= \emptyset$}
+\paragraph{$A \bigtriangleup B$}
+	\subparagraph{$= \{x \in \mathbb{R} : x \in [(A \setminus B) \cup (B \setminus A)]\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : x \in [\emptyset \cup (B \setminus A)]\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : x \in (B \setminus A)\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : x \in B \; \wedge \; x \notin A\}$}
+	\subparagraph{$= \{x \in \mathbb{R} : -1 < x < 1\}$}

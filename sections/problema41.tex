@@ -1,0 +1,25 @@
+\section{•}
+\noindent 41. Sean $A$, $B$, $C$ y $D$ conjuntos cualesquiera. Demuestre que\\
+\begin{center}
+$[(C \setminus A) \times D] \cup [C \times (D \setminus B)] = (C \times D) \setminus (A \times B)$\\
+\end{center}
+PD\\
+\begin{tabular}{r l}
+$(C \times D) \setminus (A \times B)$&$=\; [(C \setminus A) \times D] \cup [C \times (D \setminus B)] $\\
+\\
+&$\iff (x,y) \in (C \times D) \; \wedge \;(x,y) \notin (A \times B)$\\
+\\
+&$\iff x \in C \; \wedge \; y \in D \; \wedge \; (x \notin A \; \vee \; y \notin B)$\\
+\\
+&$\iff (x \in C \; \wedge \; y \in D \; \wedge \; x \notin A)\; \vee \; (x \in C \; \wedge \; y \in D \; \wedge \; y \notin B)$\\
+\\
+&$\iff (x \in C\; \wedge \; x \notin A \; \wedge \; y \in D )\; \vee \; (x \in C \; \wedge \; y \in D \; \wedge \; y \notin B)$\\
+\\
+&$\iff [x \in (C \cap A^c) \; \wedge \; y \in D] \; \vee \; [x\in C \; \wedge \; y \in (D \cap B^c)]$\\
+\\
+&$\iff [x \in (C \setminus A) \; \wedge \; y \in D] \; \vee \; [x\in C \; \wedge \; y \in (D \setminus B)]$\\
+\\
+&$\iff (x,y) \in [(C \setminus A) \times D] \; \vee \; (x,y) \in [C \times (D \setminus B)]$\\
+\\
+&$\iff [(C \setminus A) \times D] \cup [C \times (D \setminus B)] = (C \times D) \setminus (A \times B)$\\
+\end{tabular}

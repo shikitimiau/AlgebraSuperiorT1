@@ -1,0 +1,21 @@
+\section{}
+16. Sean $I \subseteq \mathbb{N},$ $B$ un conjunto y $\{A_i\}_{i \in I} $ una familia de conjuntos. Demuestre que:
+\begin{enumerate}
+	\renewcommand{\labelenumi}{({\alph{enumi}})} \item $(\cap _{i \in I} A_i ) \cup B = \cap _{i \in I} (A_i \cup B);$\\
+	
+	$(\subseteq)$ Tomemos un $x \in (\cap _{i \in I} A_i ) \cup B$. Por definición de unión, $x \in (\cap _{i \in I} A_i )$ o $x \in B$. Si $x \in (\cap _{i \in I} A_i ) \; \Rightarrow \; x\in A_i \; \forall i \in I$. Por lo tanto, $x \in \cap _{i \in I} (A_i \cup B)$.\\
+	$(\supseteq)$Si $x \in \cap _{i \in I} (A_i \cup B)$, por definición de unión, $x \in A_i \; \forall i \in I$ o $x \in B$. Si $x\in A_i \; \forall i \in I $ entonces $x \in \cap _{i\in I} A_i$. Por lo tanto, $x \in (\cap _{i \in I} A_i ) \cup B = \cap _{i \in I} (A_i \cup B)$\\
+Luego, por extencionalidad, son iguales.
+	
+	\renewcommand{\labelenumi}{({\alph{enumi}})} \item $(\cup _{i \in I} A_i) \cup B = \cup _{i \in I} (A_i \cup B);$\\
+	
+	$(\subseteq)$ Sea $x \in (\cup _{i \in I} A_i) \cup B$, por definición de unión $x \in (\cup _{i \in I} A_i)$ o $x \in B$. Si $x \in \cup _{i \in I} A_i$ entonces $x \in A_i$ para algún $i$. Por definición de unión, $x \in \cup _{i \in I} (A_i \cup B)$\\
+	$(\supseteq)$ Sea $x \in \cup _{i \in I} (A_i \cup B) \; \Rightarrow \; x\in A_i \cup B$ para algún $i$ o $x \in B$. Si $x \in A_i$ entonces $x \in \cup _{i \in I} A_i$. Luego, por definición de unión, tenemos que $x \in (\cup _{i \in I} A_i) \cup B$\\
+	Entonces, por extencionalidad, son iguales.
+	\renewcommand{\labelenumi}{({\alph{enumi}})} \item $(\cap _{i \in I} A_i)\cap B = \cap _{i \in I} (A_i \cap B);$\\
+	
+	$(\subseteq)$ Sea $x \in (\cap _{i \in I} A_i)\cap B$, por definición de intersección, $x \in (\cap _{i \in I} A_i)$ y $x \in B$. $x \in (\cap _{i \in I} A_i) \; \Rightarrow \; x \in A_i$ para algún $i$, y por definición de intersección, $x \in (A_i \cap B)$ para algún $i$.\\
+	$(\supseteq)$ Sea $x \in \cap _{i \in I} (A_i \cap B)$, por definición de intersección, $x \in A_i$ para algún $i \in I$ y $x \in B$ entonces $x\in \cap _{i \in I} A_i$ y luego por definición de intersección, $x \in (\cap _{i \in I} A_i)\cap B$\\
+	Por extencionalidad, son iguales.
+	
+\end{enumerate}

@@ -1,0 +1,30 @@
+\section{}
+Justifique lo siguiente dando un contraejemplo:
+\begin{itemize}
+	\item (a) Para cualesquiera conjuntos A y B, se tiene que $A \subseteq (A \cap B)$\newline
+	Consideremos a $A = \{ 1,2,3 \}$, $B = \{1,2\}$\newline
+	$\rightarrow A \cap B = \{ 3\} \rightarrow A \subsetneqq A \cap B$ ya que $\{1,2,3\} \subsetneqq \{3\}$
+	
+	\item (b) Para cualesquiera conjuntos A, B y C. si $(A \cap C) \subseteq (B \cap C)$ entonces $A \subseteq B$\newline
+	Sea $A = \{ 1,2,3 \}$, $B = \{3,4\}$, $C= \{3\}  \rightarrow (A \cap B) = \{3\}$,\newline
+	$B \cap C = \{3\}$ por lo que $\{3\} \subseteq \{3\}$, ya que es el mismo conjunto pero $A \subsetneqq B$ ya que existen elementos en A que no están en B, son $\{1,2\}$
+	
+	\item (c) Para cualesquiera conjuntos A, B y C, si $(A \cap B) \subseteq C \rightarrow A \subseteq C$ ó $B \subseteq C$\newline
+		Tomemos $A = \{ 1,2,3 \}$, $B = \{3,4,5\}$, $C = \{3,4\} \rightarrow (A \cap B) = \{ 3\}$, este sera subconjunto de C, pero $A \subsetneqq C \wedge B \subsetneqq C$, ya que A y B tienen elementos que no están en C.
+		
+	\item (d) Para cualesquiera conjuntos A y B se tiene que $(A \cup B) \subseteq A$\newline
+	Supongamos que $A=\{1\}$ y $B \{ 2\} \rightarrow A \cup B = \{1,2\}$, pero este conjunto $(A \cup B)\subsetneqq A$ ya que tiene a 2 y A no tiene a 2.
+	
+	\item (e) Para cualesquiera conjuntos A, B y C, si $(A \cup C) \subseteq (B \cup C) \rightarrow A \subseteq B$\newline
+	$A = \{2,1\}$ $C = \{2,3,4\}$ $B = \{1\} \rightarrow (A \cup C) = \{1,2,3,4\} \subseteq (B \cup C)$ son subconjuntos ya que ambos son conjuntos, pero $A \subsetneqq B$ ya que A tiene un elemento que no está en B, este es el 2.
+	
+	\item (f) Para cualesquiera conjuntos A y B de un conjunto universal $\bU$, si $A \cup B = \bU \rightarrow A \subseteq B^c$\newline
+	Si $A = \{1,2\}$ $B = \{3,2\}$ y $\bU = \{1,2,3\} \rightarrow A \cup B = \{1,2,3\} = \bU \rightarrow B^c = I$\newline
+	$\therefore A \subsetneqq B^c$ ya que A tiene un elemento que no está en $B^c$, este es el 2.
+	
+	\item (g) Para cualesquiera conjuntos A y B de un ejemplo universal $\bU$, se tiene que $A \cup (B \cap C^c) = (A \cup B) \cap (A \cup C)^c$\newline
+	$A = \{1,2\}$ $B = \{2,3\}$ $\bU = \{1,2,3\}$, $C = \{3,1\}$, \newline
+	$(B \cap C^c)=2 \rightarrow A \cup (B \cap C^c)  = \{1,2\} (1)$, luego $(A \cup B) = \{1,2,3\}$ y $(A \cup C)^c = \varnothing$, \newline
+	Por lo tanto $(A \cup B)\cap (A \cup C)^c = \varnothing$ (ya que el vacío no tiene elementos) (2), por lo que observamos que (1) y (2) no son iguales.\newline
+	Por lo tanto esta igualdad no se puede dar.
+\end{itemize}
