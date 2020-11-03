@@ -1,0 +1,46 @@
+\section{}
+Demuestre  que para cualesquiera conjuntos A. B y C se tiene que:\newline
+$A \triangle B \subseteq (A \triangle C) \cup (C \triangle B) $.\newline
+Dem. sea $(A \triangle C) \cup (C \triangle B) \neq \varnothing $\newline
+$A \triangle B = ( A \setminus B) \cup (B \setminus A)$, teniendo $ \{ x \in A \wedge x \notin B \} \cup \{x \in B\ \wedge x \notin A \}$ y $(A \triangle C) \cup (C \triangle B) = (A \setminus C) \cup (C \setminus A) \cup (C \setminus B) \cup (B \setminus C)$.\newline\\
+
+Caso I) Sea $A \subseteq C \wedge B \subseteq C$, por diferencia simetrica sabemos que en $A \triangle B$ no esta $A \cap B \rightarrow$ si $A \subseteq C \wedge B \subseteq C$ entonces $(A \setminus C) \wedge (B \setminus C)$ serían vacíos por lo tanto solo quedaría $(C \setminus A) \cup (C \setminus B)$ donde permanecerán B y A respectivamente sin su intersección $(A \cap B)$\newline
+$\therefore A \triangle B \subseteq (A \triangle C) \cup (C \triangle B)$\newline\\
+
+Caso II) Sea $A \subsetneqq C \wedge B \subsetneqq C \rightarrow$ si $A \cap C \wedge B \cap C = \varnothing$ entonces es directo que $A \triangle B \subseteq (A \triangle C)\cup (C \triangle B)$, ya que $A \setminus C = A$ y $B \setminus C =  B \rightarrow A \setminus C \cup B \setminus C = A \cup B$ y $A \triangle B \subseteq A \cup B$ ya que $A \triangle B$ se puede expresar como $(A \cup B) \setminus (A \cap B)$\newline
+Si $A \cap C \wedge B \cap C \neq \varnothing \rightarrow A$ sin su intersección estaría contenida en $(A \setminus C) \cup (C \setminus A)$ y la intersección de B estaría en $(B \setminus C) \cup (C \setminus B)$ ya que no consideramos $A \cap B$ por definición de diferencia simétrica $\rightarrow (A \cup B)\setminus A \cap B \subseteq (A \setminus C)\cup (C \setminus A)\cup (B \setminus C) \cup (C \setminus B) $\newline
+$\therefore A \triangle B \subseteq (A \triangle C) \cup (C \triangle B)$\newline\\
+
+Caso III) Supongamos $A \subseteq C \wedge B \subsetneqq C$\newline
+Como vimos en el caso I si $A \subseteq C \rightarrow A \setminus C \neq \varnothing$ y $A \setminus (A \cap B) \subseteq C \setminus B$ y si $A \cap C = \varnothing$ entonces es directo que $A  \triangle B \subseteq (A \triangle C) \cup (C \triangle B)$ (por explicación del caso II). \newline
+Si $A \cap C \neq \varnothing$, por caso II A sin intersección estaría contenida en $(A \setminus C) \cup (C \setminus A) \rightarrow A \triangle B \subseteq (A \setminus C) \cup (C \setminus A) \cup (C \setminus B)$\newline
+$\therefore A \triangle B \subseteq (A \triangle C) \cup (C \triangle B)$\newline
+
+Encuentre un ejemplo en el que la contención anterior sea propia y otro donde dé la igualdad\newline
+Para el ejemplo de la contención propia tendremos los siguientes conjuntos:\newline
+$A = \{1,2,3,5,8\}$\newline
+$B = \{ 1,3,4,6,9 \}$\newline
+$C = \{1,2,4,7,10 \}$\newline
+Por definición tenemos que $(A \triangle B) = (A \setminus B ) \cup (B \setminus A)$ donde:\newline
+$(A \setminus B)= \{3,5,8\}$ y $(B \setminus A)= \{4,6,9\}$  por lo que:\newline
+$(A \triangle B)= \{3,4,5,6,8,9\}$ \newline
+Si $A \triangle C = (A \setminus C) \cup (C\setminus A)$, entonces:
+$(A \setminus C)= \{3,5,8\}$ y $(C \setminus A)= \{4,7,10\}$ por lo que podemos decir que:\newline
+$(A \triangle C)= \{3,4,5,7,8,10\}$\newline
+Siguiendo lo mismo, podemos decir que:\newline
+$(C \setminus B)= \{2,7,10\}$ y $(B \setminus C)= \{3,6,9\}$ lo que nos lleva a:
+$(C \triangle B)= \{2,3,6,7,9,10\}$\newline
+Una vez planteado esto podemos decir que:\newline
+$(A \triangle C) \cup (C \triangle B)= \{2,3,4,5,6,7,8,9,10\}$  y $A \triangle B = \{3,4,5,6,8,9\}$\newline
+Claramente podemos ver que   $(A \triangle C) \cup (C \triangle B)$ tiene todos los elementos de $A \triangle B$.Por lo que podemos concluir que se tiene una contención propia.\\\\
+
+Para el ejemplos de igualdad:\newline
+Teniendo los siguientes conjuntos:\newline
+$A = \{1,2,3,5,7,8,10\}$\newline
+$B = \{1,2,3,4,6,7,9,10\}$\newline
+$C = \{1,2,3,4,7,10\}$\newline
+Y siguiendo los mismos pasos que en el ejemplo anterior podemos llegar rápidamente a lo siguiente:\newline
+$A \triangle B = \{4,5,6,8,9\}$\newline
+$A \triangle C = \{4,5,8\}$\newline
+$C \triangle B = \{6,9\}$\newline
+Teniendo: $(A \triangle C) \cup (C \triangle B) = \{4,5,6,8,9\}$ y $A \triangle B = \{4,5,6,8,9\}$ Podemos ver que se cumple la igualdad.
