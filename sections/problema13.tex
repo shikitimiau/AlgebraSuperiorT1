@@ -1,0 +1,121 @@
+\section{}
+Demuestre que para cualesquiera conjuntos A, B y C se tiene lo siguiente:
+\begin{itemize}
+	 \item (a) $A \subseteq B$ y $A \subseteq C$ si y solo si $A \subseteq (B \cap C)$\newline
+	 $(\rightarrow)$ Dem. Directa\newline
+	 Supongamos que $A \subseteq B \wedge A \subseteq C$\newline
+	 Queremos mostrar $A \subseteq B \cap C$, es decir que $\forall x (x \in A \rightarrow x \in B \cap C)$\newline
+	 Luego sea $x \in A$\newline
+	 Como $A \subseteq B$,entonces $x \in B$\newline
+	 Como $A \subseteq C$, entonces $x \in C$\newline
+	 Como $x \in B \wedge x \in C $ entonces $x \in A \cap B$\newline
+	 $\therefore A \subseteq B \wedge A \subseteq C \rightarrow A \subseteq A \cap B$\newline\\
+	 
+	 $(\leftarrow)$ Dem. Directa\newline
+	 Supongamos $A \subseteq B \cap C$\newline
+	 Queremos mostrar que $A \subseteq B$\newline
+	 Luego sea $x \in A$, como $A\subseteq B \cap B$ entonces $x \in B \cap C$\newline
+	 En particular $x \in B$, luego $A \subseteq B$\newline
+	 Queremos probar $A \subseteq C$, sea $y \in A$\newline
+	 Como $A \subseteq B \cap C $ entonces $y \in B \cap C$\newline
+	 En particular $y \in C$, luego $A \subseteq C$\newline
+	 $\therefore A \subseteq B \cap C \rightarrow A \subseteq B \wedge A \subseteq C$
+	 
+	 \item (b) $(A \subseteq C \lor B \subseteq C) \rightarrow A \cap B \subseteq C$\newline
+	 Dem. Directa\newline
+	 Supongamos $A \subseteq B \lor B \subseteq C$\newline
+	 Caso 1: $A \subseteq C$\newline
+	 Queremos mostrar $A \cap B \subseteq C$ \newline
+	 Luego sea $x \in A \cap B$, en particular $x \in A$ \newline
+	 Como $A \subseteq C$ entonces $x \in C$\newline
+	 $\therefore (A \subseteq C) \rightarrow (A \cap B \subseteq C)$\newline
+	 Caso 2: Analogamente:\newline
+	 $(B \subseteq C ) \rightarrow (A \cap B \subseteq C)$\newline
+	 $\therefore (A \subseteq C) \lor (B \subseteq C) \rightarrow (A \cap B \subseteq C)$
+	 
+	 \item (c) $(A \cap B = \varnothing \wedge C \subseteq A) \rightarrow C \cap B = \varnothing$\newline
+	 Dem. por reducción al absurdo\newline
+	 Supongamos  $A \cap B = \varnothing$, $C \subseteq A$ y $C \cap B \neq \varnothing$\newline
+	 Como $C \cap B \neq \varnothing$, luego sea $x \in C \cap B$\newline
+	 Entonces en particular $x \in C$, pero $C \subseteq A$, luego $x \in A$\newline
+	 Como $x \in C \cap B$ en particular $x \in B$\newline
+	 Luego $x \in A \cap B$\newline
+	 Esto implica $A\cap B \neq \varnothing!$\newline
+	 $\therefore (A \cap B = \varnothing \wedge C \subseteq A) \rightarrow (C \cap B = \varnothing)$
+	 
+	\item (d) $A \subseteq B \rightarrow ((A \cap C) \subseteq (B \cap C))$\newline
+	Dem. Directa. \newline
+	Supongamos $A \subseteq B$\newline
+	Queremos probar $A \cap B \subseteq B \cap C$\newline
+	Luego sea $x \in A \cap C$\newline
+	Entonces $x \in A$ y $x \in C$\newline
+	Pero como $A \subseteq B$ entonces $x \in B$\newline
+	Luego $x \in B$ y $x \in C$\newline
+	Entonces $x \in B \cap C$\newline
+	$\therefore A \subseteq B \rightarrow (A \cap C \subseteq B \cap C)$
+	
+	\item (e) $( (A \subseteq C) \wedge (B \subseteq C) ) \iff ((A \cup B) \subseteq C)$\newline
+	$(\rightarrow)$Dem. Directa. \newline
+	Supongamos $A \subseteq C \wedge B \subseteq C$\newline
+	Queremos probar $A \cup B \subseteq C$\newline
+	Entonces sea $x \in A \cup B$\newline
+	Luego $x \in A$ ó $x \in B$\newline
+	Pero $A \subseteq C \wedge B \subseteq C$\newline
+	Luego en cualquier caso de $x \in C$\newline
+	$\therefore (A \subseteq C \wedge B \subseteq C) \rightarrow (A \cup B \subseteq C)$\newline
+	
+	$(\leftarrow)$Dem . Directa\newline
+	Supongamos $A \cup B\subseteq C$\newline
+	Queremos probar $A \subseteq C$\newline
+	Sea $x \in A$ entonces $x \in A \cup B$\newline
+	Como $A \cup B \subseteq C$ entonces $x \in C$\newline
+	Luego $A \subseteq C$\newline
+	Queremos probar $B \subseteq C$\newline
+	Entonces sea $x \in B$ lo que implica $x \in A \cup B$\newline
+	Como $A \cup B \subseteq C$ entonces $x \in C$\newline
+	Luego $B \subseteq C$\newline
+	$\therefore (A \cup B \subseteq C) \rightarrow (A \subseteq C \wedge B \subseteq C)$
+	
+	\item (f) $(A \subseteq B) \rightarrow ((A \cup C) \subseteq (B \cup C))$\newline
+	Dem. Directa.\newline
+	Supongamos $A \subseteq B$\newline
+	Queremos probar $(A \cup C) \subseteq (B \cup C)$\newline
+	Luego sea $x \in A \cup C$\newline
+	Entonces $x \in A $ ó $x \in C$\newline
+	Caso 1 Si $x \in A$\newline
+	Como $A \subseteq B$, entonces $x \in B$\newline
+	Luego $x \in A \cup B$\newline
+	Es decir. $A \cup C \subseteq B \cup C$\newline
+	Caso 2 si $x \in C$\newline
+	Entonces $x \in B \cup C$\newline
+	Es decir $A \cup C \subseteq B \cup C$\newline
+	$\therefore (A \subseteq B) \rightarrow (A \cup C \subseteq B \cup C)$	
+	
+	\item (g) $A \cup (A \cap B) = A$\newline
+	$(\subseteq)$\newline
+	Sea $x \in A \cup (A \cap B)$\newline
+	Entonces $x \in A$ ó $x \in A\cap B$\newline
+	En cualquier caso $x \in A$\newline
+	$\therefore A \cup (A \cap B) \subseteq A$\newline\\
+	
+	$(\supseteq)$\newline
+	Sea $x \in A$\newline
+	Entonces $(x \in A) \lor (x \in A \cap B)$\newline
+	Entonces $x \in A \cup (A \cap B)$\newline
+	$\therefore A \subseteq A \cup (A \cap B)$
+	
+	\item (h) $A \cap (A \cup B) = A$\newline
+	$(\subseteq)$\newline
+	Sea $x \in A \cap (A \cup B)$\newline
+	Entonces $x \in A$ y $x \in A \cup B$\newline
+	En particular $x \in A$\newline
+	$\therefore A \cap (A \cup B ) \subseteq A$\newline\\
+	
+	$(\supseteq)$\newline
+	Sea $x \in A$\newline
+	Entonces $x \in A \lor x \in B$\newline
+	Luego $x \in A \cup B$\newline
+	Esto significa $x \in A \wedge x \in A \cup B$\newline
+	Luego $x \in A \cap (A \cup B)$\newline
+	$\therefore A \subseteq A \cap (A \cup B)$
+\end{itemize}
